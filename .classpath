@@ -11,5 +11,6 @@
 	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/servlet-api.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-jdbc.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER-114/Downloads/cos-20.08/lib/cos.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
