@@ -65,7 +65,8 @@ public class ControllServlet extends HttpServlet {
 			System.out.println("ControllServlet에서 요청을 받음을 확인 : " + command);
 			if(command.equals("reviewWrite")) {
 				// 여기를 바꿔주면 다운받는 경로가 바뀜
-				String savePath = "./reviewcomm/upload";
+				String savePath = "./assets/img";
+			//	String savePath = "./reviewcomm/upload";
 				System.out.println("savePath");
 				ServletContext context = getServletContext();// 실제 물리적인 루트 디렉토리
 				String uploadFilePath = context.getRealPath(savePath);

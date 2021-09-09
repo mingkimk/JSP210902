@@ -36,8 +36,6 @@
 		<ul class="links">
 			<li><a href="./ControllServlet?command=main">Home</a></li>
 			<li><a href="./ControllServlet?command=Exhibitions">Exhibitions</a></li>
-			<li><a href="./ControllServlet?command=reviewWriteForm">Review</a></li>
-
 			<li><a href="./ControllServlet?command=registerForm">Register</a></li>
 			<li><a href="./ControllServlet?command=logForm">Sign in</a></li>
 			<c:choose>

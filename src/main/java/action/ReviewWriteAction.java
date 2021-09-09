@@ -27,7 +27,8 @@ public class ReviewWriteAction implements Action {
 		response.setContentType("text/html; charset=UTF-8");
 		PrintWriter out = response.getWriter();
 		// 여기를 바꿔주면 다운받는 경로가 바뀜
-		String savePath = "./reviewcomm/upload";
+		String savePath = "./assests/img";
+	//	String savePath = "./reviewcomm/upload";
 		System.out.println("found savapath");
 		
 		int uploadFileSizeLimit = 5 * 1024 * 1024;
